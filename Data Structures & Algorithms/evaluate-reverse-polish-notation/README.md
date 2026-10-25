@@ -1,1 +1,1 @@
-To solve this question, we loop through our list `tokens` adding each token to the stack as integers till we come across '+, -, * and / '. We pop the stack entities while attaching the results to the stack each time.
+To solve this question, we loop through our list `tokens`, adding each token to the stack as integers till we come across '+, -, * and / '. We pop the stack entities while attaching the result to the stack each time.
