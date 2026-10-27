@@ -1,0 +1,5 @@
+We initialize a list `res` filled with zeros to store the number of days until a warmer temperature is found for each day. We also initialize an empty stack to store tuples containing each temperature and its index.
+
+We iterate through the `temperatures` list and compare the current temperature with the temperature at the top of the stack. If the current temperature is warmer, we pop the tuple from the stack and calculate the difference between their indices. This difference represents the number of days it took to find a warmer temperature, which we store in `res` at the popped index.
+
+We repeat this process while the current temperature is warmer than the temperature at the top of the stack. After resolving any previous temperatures, we push the current temperature and its index onto the stack. Once the iteration is complete, we return `res`, which contains the number of days to wait for a warmer temperature for each day. Any entries that remain zero indicate that no warmer temperature was found.
