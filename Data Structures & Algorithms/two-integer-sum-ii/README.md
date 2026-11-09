@@ -1,0 +1,2 @@
+## Two Integer Sum
+Through each iteration of numbers, a complement is calculated by subtracting the current iterated number from the target. The complement is then searched for in the `vault`. If found (`True`), the index of the complement (the key's corresponding value) is returned together with the index of the current iterated number. Otherwise (`False`), the current iterated number is added to the `vault` as a key, with its index as the corresponding value.
